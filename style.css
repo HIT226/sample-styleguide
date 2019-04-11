@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Roboto');
+
+/* Base page elements */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+main {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	padding: 20px 10px;
+	border-left: 1px solid #0a0a69;
+	border-right: 1px solid #0a0a69;
+}
+
+body,
+main,
+p,
+.body {
+	font-family: 'Roboto', sans-serif;
+	color: #101046;
+}
+
+body {
+	background-color: #ececff;
+}
+
+main {
+	background-color: #f9f9ff;
+}
+
+section {
+	margin: 20px 0;
+	padding: 10px;
+}
+
+/* Text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+.heading {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #0a0a69;
+	font-weight: bold;
+}
+
+h2,
+h3 {
+	font-weight: normal;
+}
+
+a {
+	color: #cf3d00;
+}
+
+a:visited,
+.link--visited {
+	color: #8c2b03;
+}
+
+/* Colours */
+.colour {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.colour--primary {
+	background: #0a0a69;
+}
+
+.colour--secondary {
+	background: #297373;
+}
+
+.colour--dark{
+	background: #101046;
+}
+
+.colour--light {
+	background: #f9f9ff;
+}
+
+.colour--highlight {
+	background: #cf3d00;
+}
+
+
+@media (min-width: 600px) {
+	main {
+		width: 600px;
+		margin: auto;
+	}
+}
